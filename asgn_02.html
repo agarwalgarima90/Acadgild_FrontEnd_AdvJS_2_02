@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignmnet 02</title>
+<script>
+
+	function outer(a) {
+		return function inner(b) {
+			return a*b;
+		}
+	}
+	var a = outer(10);
+	result = a(50);
+	document.write(result);
+
+</script>
+</head>
+</html>
